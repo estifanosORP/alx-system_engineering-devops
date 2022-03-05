@@ -48,8 +48,12 @@
 #
 **12-file_type** - prints the type of the type of the file named iamafile.
 <br>
-```type /tmp/iamafile```
+```file  /tmp/iamafile```
 #
 **13-symbolic_link** - create a symbolic link to /bin/ls
 <br>
-```alias __ls__="/bin/ls"```
+```alias __ls__="ls"```
+#
+**14-copy_html** - copy all HTML files in the current working directory to the parent directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.(u stands for --update)
+<br>
+```cp -u *.html ..```
