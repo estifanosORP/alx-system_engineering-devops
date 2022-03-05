@@ -1,12 +1,13 @@
 **0-current_working_directory** - this prints the absolute path name of the current working directory
-\n
+<br>
 ```pwd```
 #
 **1-listit** - this list the contents of the current directory
-\n
+<br>
 ```ls```
 #
 **2-bring_me_home** - changes working directory to the user's home directory
+<br>
 ```cd```
 **3-listfiles** - display current directory contents in a long format
 ```ls -l```
