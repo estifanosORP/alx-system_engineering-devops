@@ -52,4 +52,4 @@
 #
 **13-symbolic_link** - create a symbolic link to /bin/ls
 <br>
-```alias __ls__="/bin/ls"
+```alias __ls__="/bin/ls"```
